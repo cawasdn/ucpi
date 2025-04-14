@@ -8,8 +8,8 @@ const Navigation = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <header className="flex justify-center w-full shadow-lg z-3 h-[70px] items-center fixed bg-white">
-      <nav className="flex justify-between container mx-auto items-center px-10 text-slate-500 w-full">
+    <header className="flex justify-center w-full shadow-lg z-3 h-[70px] items-center fixed">
+      <nav className="flex justify-between container mx-auto items-center px-10 text-slate-100 w-full">
         <div className="">
           <Link href="/">
             <Image
